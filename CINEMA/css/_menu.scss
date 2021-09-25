@@ -1,0 +1,53 @@
+.header{
+
+    &__top{
+        background-color: black;
+        padding: 30px 0 30px;
+        position: relative;
+        z-index: 10;
+    }
+
+    &__top-inner{
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+.menu{
+
+    display: flex;
+    cursor: pointer;
+
+    &__item + &__item{
+        @media (min-width: 631px) {
+            margin-left: 15px;    
+        }
+        
+    }
+
+    &__link{
+        font-size: 20px;
+        line-height: 1.5;
+        color:white;
+        transition: color 1s;
+        cursor: pointer;
+
+        &:hover{
+            color:red;
+        }        
+    
+        @media (min-width: 768px) {
+            font-size: 25px;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: 29px;
+        }
+
+    }
+}
+
+#menu__toggle{
+    display: none;
+}

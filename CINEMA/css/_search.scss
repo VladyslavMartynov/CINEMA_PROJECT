@@ -1,0 +1,25 @@
+.search{
+    // padding-top: 50px;
+    // padding-bottom: 50px;
+
+    &__wrap{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    &__input{
+        padding: 10px 0 10px;
+    }
+
+    &__btn{
+        display: inline-block;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px;
+        color: black;
+        border: 1px solid #000;
+        cursor: pointer;
+    }
+}

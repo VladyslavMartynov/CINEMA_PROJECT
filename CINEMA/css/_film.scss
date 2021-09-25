@@ -1,0 +1,38 @@
+.film{
+    &__wrap{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    &__item {
+        display: $fl;
+        flex-direction: column;
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 35px;
+        cursor: pointer;
+
+        >img{
+            min-height: 300px;
+
+        }
+    }
+}
+
+.filmfavorite{
+
+    &__wrap{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+}
+
+.img {
+    width: 200px;
+    height: 300px;
+}
+
