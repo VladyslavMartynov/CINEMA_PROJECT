@@ -1,5 +1,9 @@
 # CINEMA_PROJECT
-Run project with: npm run dev with live server!
-1)You can add all films you like and see them in favorite section with detail information about film!
-2)Find any film you want with the search button!
-3)Pagination is available!
+In order to start use live server and this command :
+```
+npm run dev
+```
+Functionallity:
+  * Add all films you like and see them in favorite section with detail information about film!
+  * Find any film you want with the search button!
+  * Pagination is available!
